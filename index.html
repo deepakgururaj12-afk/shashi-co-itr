@@ -1,103 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shashi & Co | ITR Filing @ ₹499</title>
-  <meta name="description" content="Shashi & Co offers fast, affordable income tax return filing, GST, TDS and registration services. ITR filing starting at ₹499." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shashi & Co | ITR Filing Starting at ₹499</title>
+  <meta name="description" content="Shashi & Co offers professional ITR filing, TDS, GST and registration services. ITR filing starting at ₹499 for eligible salaried individuals." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="nav">
-    <div class="brand">Shashi & Co</div>
+    <div class="brand"><span class="logo">S&Co</span><strong>Shashi & Co</strong></div>
     <nav>
-      <a href="#services">Services</a>
-      <a href="#documents">Documents</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#contact">Contact</a>
+      <a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#upload">Upload</a><a href="#faq">FAQ</a>
     </nav>
-    <a class="phone" href="tel:+919945574143">Call: 99455 74143</a>
+    <a class="call" href="tel:+919945574143">Call: 99455 74143</a>
   </header>
 
   <section class="hero">
-    <div class="hero-text">
-      <span class="badge">Income Tax Return Filing</span>
+    <div>
+      <span class="pill">Income Tax Return Filing</span>
       <h1>File Your ITR Starting at <span>₹499</span></h1>
-      <p>Professional tax filing support for salaried individuals, freelancers, capital gains, GST, TDS and registrations.</p>
+      <p>Fast, secure and professional tax filing support for salaried individuals, freelancers, capital gains and business cases.</p>
       <div class="actions">
         <a class="btn primary" href="https://wa.me/919945574143?text=Hi%20Shashi%20%26%20Co%2C%20I%20want%20to%20file%20my%20ITR%20for%20%E2%82%B9499" target="_blank">WhatsApp Now</a>
-        <a class="btn secondary" href="#contact">Submit Details</a>
+        <a class="btn" href="#lead-form">Submit Details</a>
       </div>
       <small>* ₹499 applicable for eligible salaried ITR cases. Other cases quoted separately.</small>
     </div>
-    <div class="card price-card" id="pricing">
+    <div class="card hero-card">
       <h3>₹499 ITR Filing</h3>
-      <ul>
-        <li>Form 16 based filing</li>
-        <li>Salary income cases</li>
-        <li>E-verification guidance</li>
-        <li>Secure online process</li>
-      </ul>
+      <ul><li>Form 16 based filing</li><li>Salary income cases</li><li>E-verification guidance</li><li>Secure online process</li></ul>
     </div>
   </section>
 
-  <section class="services" id="services">
-    <h2>Our Services</h2>
+  <section id="services" class="grid services">
+    <div class="card"><h3>ITR Filing</h3><p>ITR-1, ITR-2, ITR-3 and ITR-4 filing assistance.</p></div>
+    <div class="card"><h3>TDS Filing</h3><p>Quarterly TDS return support and corrections.</p></div>
+    <div class="card"><h3>GST Services</h3><p>GST registration, GSTR-1, GSTR-3B and monthly compliance.</p></div>
+    <div class="card"><h3>Registration</h3><p>MSME, PAN, TAN and business registration support.</p></div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2>Simple Pricing</h2>
     <div class="grid">
-      <div class="card"><h3>ITR Filing</h3><p>ITR-1, ITR-2, ITR-3 and ITR-4 filing assistance.</p></div>
-      <div class="card"><h3>TDS Filing</h3><p>Quarterly TDS returns, corrections and compliance.</p></div>
-      <div class="card"><h3>GST Services</h3><p>GST registration, GSTR-1, GSTR-3B and annual return support.</p></div>
-      <div class="card"><h3>Registration</h3><p>MSME, PAN, TAN and business registration guidance.</p></div>
+      <div class="card price"><h3>Salary ITR</h3><b>₹499</b><p>For eligible salaried individuals with Form 16.</p></div>
+      <div class="card price"><h3>Capital Gain / Business</h3><b>Custom</b><p>Pricing depends on documents and complexity.</p></div>
+      <div class="card price"><h3>GST / TDS</h3><b>Quote</b><p>Monthly or quarterly compliance packages available.</p></div>
     </div>
   </section>
 
-  <section class="documents" id="documents">
+  <section id="upload" class="split">
     <div>
       <h2>Documents Required</h2>
-      <p>Keep these ready before filing your return.</p>
-      <ul class="checklist">
-        <li>PAN Card</li><li>Aadhaar Card</li><li>Form 16</li><li>AIS / 26AS</li><li>Bank details</li><li>Investment proofs</li>
-      </ul>
+      <ul class="check"><li>PAN Card</li><li>Aadhaar Card</li><li>Form 16</li><li>AIS / Form 26AS</li><li>Bank statement</li><li>Capital gain statement, if any</li></ul>
     </div>
-    <div class="card">
-      <h3>Quick Enquiry</h3>
-      <form id="leadForm">
-        <input required name="name" placeholder="Full name" />
-        <input required name="phone" placeholder="Phone number" />
-        <input name="email" type="email" placeholder="Email" />
-        <select name="service">
-          <option>ITR Filing ₹499</option><option>GST Filing</option><option>TDS Filing</option><option>Registration</option>
-        </select>
-        <textarea name="message" placeholder="Tell us your income type"></textarea>
-        <button class="btn primary" type="submit">Send on WhatsApp</button>
-      </form>
-    </div>
+    <form id="lead-form" class="card form">
+      <h2>Submit Your Details</h2>
+      <input required name="name" placeholder="Full Name" />
+      <input required name="phone" placeholder="Mobile Number" />
+      <input name="email" placeholder="Email ID" />
+      <select name="service"><option>ITR Filing ₹499</option><option>GST Services</option><option>TDS Filing</option><option>Business Registration</option></select>
+      <textarea name="message" placeholder="Tell us about your income/source"></textarea>
+      <label class="upload">Upload documents<input type="file" multiple /></label>
+      <button class="btn primary" type="submit">Send Enquiry</button>
+      <p id="form-msg"></p>
+    </form>
   </section>
 
-  <section class="why">
-    <h2>Why Choose Shashi & Co?</h2>
-    <div class="grid three">
-      <div class="card"><h3>Affordable</h3><p>Transparent pricing starting at ₹499.</p></div>
-      <div class="card"><h3>Fast Process</h3><p>Online support and quick document collection.</p></div>
-      <div class="card"><h3>Professional</h3><p>Tax, GST and TDS compliance support.</p></div>
-    </div>
-  </section>
-
-  <section class="faq">
+  <section id="faq" class="faq">
     <h2>FAQ</h2>
-    <details><summary>Who is eligible for ₹499 filing?</summary><p>Mostly salaried individuals with Form 16 and simple income details.</p></details>
-    <details><summary>Can you file capital gain or business income cases?</summary><p>Yes, but pricing will be quoted separately based on complexity.</p></details>
-    <details><summary>Do you support online filing?</summary><p>Yes, the process can be completed online through WhatsApp and email.</p></details>
+    <details><summary>Is ₹499 for everyone?</summary><p>No. ₹499 is for eligible salaried individuals with standard documents. Complex cases are quoted separately.</p></details>
+    <details><summary>Can I file online from anywhere?</summary><p>Yes, you can share documents online and complete the process through WhatsApp/email.</p></details>
+    <details><summary>Do you help with e-verification?</summary><p>Yes, we guide you with e-verification after filing.</p></details>
   </section>
 
-  <section class="contact" id="contact">
-    <h2>Contact Shashi & Co</h2>
-    <p><strong>Phone / WhatsApp:</strong> <a href="tel:+919945574143">99455 74143</a></p>
-    <p><strong>Email:</strong> <a href="mailto:deepakgururaj12@gmail.com">deepakgururaj12@gmail.com</a></p>
-    <a class="btn primary" href="https://wa.me/919945574143" target="_blank">Chat on WhatsApp</a>
-  </section>
-
-  <footer>© 2026 Shashi & Co. All rights reserved.</footer>
+  <footer>
+    <b>Shashi & Co</b><br />
+    Phone: <a href="tel:+919945574143">9945574143</a> | Email: <a href="mailto:deepakgururaj12@gmail.com">deepakgururaj12@gmail.com</a>
+    <p>© 2026 Shashi & Co. All rights reserved.</p>
+  </footer>
+  <a class="floating" href="https://wa.me/919945574143" target="_blank">WhatsApp</a>
   <script src="script.js"></script>
 </body>
 </html>

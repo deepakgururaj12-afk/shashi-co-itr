@@ -1,6 +1,8 @@
-document.getElementById('leadForm').addEventListener('submit', function(e){
+document.getElementById('lead-form').addEventListener('submit', function(e){
   e.preventDefault();
-  const data = new FormData(e.target);
-  const text = `Hi Shashi & Co, I want tax service.%0AName: ${data.get('name')}%0APhone: ${data.get('phone')}%0AEmail: ${data.get('email') || '-'}%0AService: ${data.get('service')}%0AMessage: ${data.get('message') || '-'}`;
-  window.open(`https://wa.me/919945574143?text=${text}`, '_blank');
+  const data = Object.fromEntries(new FormData(this).entries());
+  const msg = `Hi Shashi & Co, I want help with ${data.service}. Name: ${data.name}, Phone: ${data.phone}, Email: ${data.email || 'NA'}. ${data.message || ''}`;
+  localStorage.setItem('latestLead', JSON.stringify({...data, createdAt:new Date().toISOString()}));
+  document.getElementById('form-msg').textContent = 'Details saved. WhatsApp will open now.';
+  window.open('https://wa.me/919945574143?text=' + encodeURIComponent(msg), '_blank');
 });
