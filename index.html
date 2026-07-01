@@ -4,29 +4,41 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Shashi & Co | ITR Filing Starting at ₹499</title>
-  <meta name="description" content="Shashi & Co offers fast and affordable ITR filing starting at ₹499 for eligible salaried individuals. Contact on WhatsApp 9945574143." />
+  <meta name="description" content="Shashi & Co offers affordable ITR filing, TDS, GST, registration and tax consultation services. ITR filing starting at ₹499." />
+  <meta name="keywords" content="ITR filing, income tax return filing, tax consultant Bangalore, Shashi and Co, GST filing, TDS filing" />
+  <meta property="og:title" content="Shashi & Co | ITR Filing Starting at ₹499" />
+  <meta property="og:description" content="Fast, affordable and professional ITR filing support. WhatsApp us today." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a7db8'/%3E%3Ctext x='50' y='62' font-size='48' text-anchor='middle' fill='white' font-family='Arial'%3ES%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="nav">
-    <div class="brand">Shashi & Co</div>
-    <a class="call" href="tel:+919945574143">Call: 99455 74143</a>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="logo">S</span><span>Shashi & Co</span></a>
+    <nav id="nav">
+      <a href="#services">Services</a>
+      <a href="#documents">Documents</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" id="menuBtn">Menu</button>
   </header>
 
-  <main>
+  <main id="home">
     <section class="hero">
-      <div>
-        <p class="tag">Income Tax Return Filing</p>
+      <div class="heroText">
+        <p class="pill">Income Tax Return Filing • Online Support</p>
         <h1>File Your ITR Starting at <span>₹499</span></h1>
-        <p class="sub">Fast, affordable and professional ITR filing support for salaried individuals, freelancers, capital gains and business cases.</p>
+        <p class="lead">Fast, affordable and professional tax filing support for salaried individuals, freelancers, capital gains and business cases.</p>
         <div class="actions">
-          <a class="btn primary" href="https://wa.me/919945574143?text=Hi%20Shashi%20%26%20Co%2C%20I%20want%20to%20file%20my%20ITR%20for%20%E2%82%B9499" target="_blank">WhatsApp Now</a>
-          <a class="btn" href="#form">Submit Details</a>
+          <a class="btn primary" id="waHero" target="_blank" rel="noopener">WhatsApp Now</a>
+          <a class="btn secondary" href="#lead-form">Submit Details</a>
         </div>
-        <p class="note">*₹499 applicable for eligible salaried ITR cases. Other cases quoted separately.</p>
+        <p class="note">* ₹499 applicable for eligible salaried ITR cases. Other cases quoted separately.</p>
       </div>
-      <div class="card price">
-        <h2>₹499 ITR Filing</h2>
+      <div class="heroCard">
+        <h3>₹499 ITR Filing</h3>
         <ul>
           <li>Form 16 based filing</li>
           <li>Salary income cases</li>
@@ -36,60 +48,126 @@
       </div>
     </section>
 
-    <section class="grid">
-      <div class="card"><h3>ITR Filing</h3><p>ITR-1, ITR-2, ITR-3 and ITR-4 filing assistance.</p></div>
-      <div class="card"><h3>TDS Filing</h3><p>Quarterly TDS return support and correction filing.</p></div>
-      <div class="card"><h3>GST Services</h3><p>GST registration, GSTR-1, GSTR-3B and monthly compliance.</p></div>
-      <div class="card"><h3>Registration</h3><p>MSME, PAN, TAN and business registration support.</p></div>
+    <section class="stats">
+      <div><strong>₹499</strong><span>Starting price</span></div>
+      <div><strong>Online</strong><span>Pan India support</span></div>
+      <div><strong>Quick</strong><span>WhatsApp response</span></div>
+      <div><strong>Secure</strong><span>Document handling</span></div>
     </section>
 
-    <section id="form" class="form-section">
-      <div class="card form-card">
-        <h2>Send Your ITR Enquiry</h2>
-        <p>Fill this and click WhatsApp Submit. Your details will open in WhatsApp.</p>
-        <form onsubmit="sendWhatsApp(event)">
-          <label>Name<input id="name" required placeholder="Your name" /></label>
-          <label>Mobile<input id="mobile" required placeholder="Your mobile number" /></label>
-          <label>Email<input id="email" type="email" placeholder="Your email" /></label>
-          <label>Income Type
-            <select id="income">
-              <option>Salaried / Form 16</option>
-              <option>Freelancer</option>
-              <option>Business / Profession</option>
-              <option>Capital Gains</option>
-              <option>Other</option>
-            </select>
-          </label>
-          <label>Message<textarea id="message" rows="4" placeholder="Tell us your requirement"></textarea></label>
-          <button class="btn primary" type="submit">Submit on WhatsApp</button>
-        </form>
+    <section id="services" class="section">
+      <div class="sectionHead">
+        <p class="eyebrow">Services</p>
+        <h2>Tax and compliance services</h2>
       </div>
-      <div class="card docs">
-        <h2>Documents Required</h2>
-        <ul>
-          <li>PAN card</li>
-          <li>Aadhaar card</li>
-          <li>Form 16</li>
-          <li>Bank statement</li>
-          <li>Capital gains statement, if any</li>
-          <li>Home loan / rent / deduction proofs, if any</li>
-        </ul>
+      <div class="grid cards">
+        <article><h3>ITR Filing</h3><p>ITR-1, ITR-2, ITR-3 and ITR-4 filing assistance.</p></article>
+        <article><h3>TDS Filing</h3><p>Quarterly TDS return support and correction assistance.</p></article>
+        <article><h3>GST Services</h3><p>GST registration, GSTR-1, GSTR-3B and monthly compliance.</p></article>
+        <article><h3>Registration</h3><p>MSME, PAN, TAN and business registration guidance.</p></article>
       </div>
     </section>
 
-    <section class="faq">
-      <h2>FAQ</h2>
-      <details open><summary>Is ₹499 for everyone?</summary><p>No. ₹499 is for eligible simple salaried ITR cases. Business, capital gains and complex cases are charged separately.</p></details>
-      <details><summary>Can I file online from anywhere?</summary><p>Yes, you can send documents online and complete the process through WhatsApp/email.</p></details>
-      <details><summary>Do you help with e-verification?</summary><p>Yes, we guide you for e-verification after filing.</p></details>
+    <section id="documents" class="section split">
+      <div>
+        <p class="eyebrow">Checklist</p>
+        <h2>Documents required</h2>
+        <p>Keep these documents ready before contacting us for faster filing.</p>
+      </div>
+      <div class="checklist">
+        <label><input type="checkbox"> PAN Card</label>
+        <label><input type="checkbox"> Aadhaar Card</label>
+        <label><input type="checkbox"> Form 16</label>
+        <label><input type="checkbox"> AIS / 26AS</label>
+        <label><input type="checkbox"> Bank interest details</label>
+        <label><input type="checkbox"> Capital gains statement, if any</label>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="sectionHead">
+        <p class="eyebrow">Pricing</p>
+        <h2>Simple starting prices</h2>
+      </div>
+      <div class="pricing">
+        <article class="priceCard featured">
+          <p class="tag">Popular</p>
+          <h3>Salaried ITR</h3>
+          <div class="price">₹499</div>
+          <p>For eligible Form 16 based salaried cases.</p>
+          <a class="btn primary" id="waPrice" target="_blank" rel="noopener">Start Filing</a>
+        </article>
+        <article class="priceCard">
+          <h3>Capital Gains / F&O</h3>
+          <div class="price">Quote</div>
+          <p>For shares, mutual funds, F&O and other complex cases.</p>
+        </article>
+        <article class="priceCard">
+          <h3>Business / GST</h3>
+          <div class="price">Quote</div>
+          <p>For business income, GST and bookkeeping support.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section formSection" id="lead-form">
+      <div>
+        <p class="eyebrow">Get Started</p>
+        <h2>Submit your details</h2>
+        <p>After submitting, your WhatsApp will open with your details. Send it to us and we will respond.</p>
+      </div>
+      <form id="leadForm" class="leadForm">
+        <input name="name" placeholder="Your name" required />
+        <input name="phone" placeholder="Mobile number" required />
+        <input name="email" type="email" placeholder="Email ID" />
+        <select name="service" required>
+          <option value="ITR Filing ₹499">ITR Filing ₹499</option>
+          <option value="ITR with capital gains">ITR with capital gains</option>
+          <option value="Business ITR">Business ITR</option>
+          <option value="GST / TDS service">GST / TDS service</option>
+        </select>
+        <textarea name="message" placeholder="Tell us about your income/source details"></textarea>
+        <button class="btn primary" type="submit">Send on WhatsApp</button>
+      </form>
+    </section>
+
+    <section class="section testimonials">
+      <div class="sectionHead">
+        <p class="eyebrow">Trust</p>
+        <h2>Why choose Shashi & Co?</h2>
+      </div>
+      <div class="grid cards">
+        <article><h3>Affordable</h3><p>Clear pricing starting from ₹499 for eligible cases.</p></article>
+        <article><h3>Professional</h3><p>Handled by tax and accounts professionals.</p></article>
+        <article><h3>Convenient</h3><p>Complete your filing online through WhatsApp and email.</p></article>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <p class="eyebrow">FAQ</p>
+      <h2>Common questions</h2>
+      <details open><summary>Who is eligible for ₹499 filing?</summary><p>Simple salaried individuals with Form 16 and standard income details. Complex cases are quoted separately.</p></details>
+      <details><summary>Can I file online?</summary><p>Yes. You can share details on WhatsApp or email and complete the filing online.</p></details>
+      <details><summary>Do you help with e-verification?</summary><p>Yes, guidance for e-verification is included.</p></details>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Start your ITR filing today</h2>
+        <p><strong>Phone / WhatsApp:</strong> <a href="tel:+919945574143">+91 99455 74143</a></p>
+        <p><strong>Email:</strong> <a href="mailto:deepakgururaj12@gmail.com">deepakgururaj12@gmail.com</a></p>
+      </div>
+      <a class="btn primary big" id="waContact" target="_blank" rel="noopener">Chat on WhatsApp</a>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Shashi & Co. All rights reserved.</p>
-    <p>Email: <a href="mailto:deepakgururaj12@gmail.com">deepakgururaj12@gmail.com</a> | WhatsApp: <a href="https://wa.me/919945574143">99455 74143</a></p>
+    <p>© <span id="year"></span> Shashi & Co. All rights reserved.</p>
+    <p>Disclaimer: This website provides tax filing support. Final filing depends on client documents and eligibility.</p>
   </footer>
 
+  <a class="floatingWa" id="waFloat" target="_blank" rel="noopener">WhatsApp</a>
   <script src="script.js"></script>
 </body>
 </html>
