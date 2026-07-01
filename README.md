@@ -1,11 +1,6 @@
 # Shashi & Co ITR Website
 
-Static website for Vercel hosting.
+Professional static landing page for Vercel hosting.
 
-## Upload to GitHub
-Upload these files to the root of your repository:
-- index.html
-- styles.css
-- script.js
-
-Vercel will redeploy automatically.
+Contact: 9945574143  
+Email: deepakgururaj12@gmail.com
